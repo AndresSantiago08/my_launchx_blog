@@ -6,7 +6,17 @@
     <description>Recent content in Launch X Bitácora de viaje on Bitácora de Viaje de Andrés Santiago</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 21 Feb 2022 18:16:21 -0600</lastBuildDate><atom:link href="http://andressantiago.z/memory-blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 06 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://andressantiago.z/memory-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lo que he aprendido en Launch X</title>
+      <link>http://andressantiago.z/memory-blog/posts/post_1/</link>
+      <pubDate>Wed, 06 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://andressantiago.z/memory-blog/posts/post_1/</guid>
+      <description>Hasta este momento he visto:
+ Python (La parte de diccionarios no la hbía visto) HTML CSS JavaScript Vue (Framework de JavaScript) Vuex (Parte de Vue) Angular (No lo he puesto en práctica) Uso de GitHub (Antes de este blog solo había hecho commits y push desde Visual Studio Code) Git (Todavía no pongo en práctica los comandos básicos desde consola)  Y falta mucho por ver.</description>
+    </item>
+    
     <item>
       <title>Cualidades de los Desarrolladores de Software</title>
       <link>http://andressantiago.z/memory-blog/posts/intro/</link>
