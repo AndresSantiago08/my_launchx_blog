@@ -11,4 +11,4 @@ Para mi un desarrollador de software debe tener las siguientes cualidades:
 - Honesto
 - Respetuoso
 
-Desde mi experiencia estás son las bases de un desarrollador.
+Estás son las bases de un desarrollador.
