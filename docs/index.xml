@@ -2,37 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Launch X Bitácora de viaje on Bitácora de Viaje de Andrés Santiago</title>
-    <link>http://andressantiago.z/memory-blog/</link>
+    <link>https://andressantiago08.github.io/my_launchx_blog/</link>
     <description>Recent content in Launch X Bitácora de viaje on Bitácora de Viaje de Andrés Santiago</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 06 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://andressantiago.z/memory-blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 06 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://andressantiago08.github.io/my_launchx_blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Lo que he aprendido en Launch X</title>
-      <link>http://andressantiago.z/memory-blog/posts/post_1/</link>
+      <link>https://andressantiago08.github.io/my_launchx_blog/posts/post_1/</link>
       <pubDate>Wed, 06 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://andressantiago.z/memory-blog/posts/post_1/</guid>
+      <guid>https://andressantiago08.github.io/my_launchx_blog/posts/post_1/</guid>
       <description>Hasta este momento he visto:
  Python (La parte de diccionarios no la hbía visto) HTML CSS JavaScript Vue (Framework de JavaScript) Vuex (Parte de Vue) Angular (No lo he puesto en práctica) Uso de GitHub (Antes de este blog solo había hecho commits y push desde Visual Studio Code) Git (Todavía no pongo en práctica los comandos básicos desde consola)  Y falta mucho por ver.</description>
     </item>
     
     <item>
       <title>Cualidades de los Desarrolladores de Software</title>
-      <link>http://andressantiago.z/memory-blog/posts/intro/</link>
+      <link>https://andressantiago08.github.io/my_launchx_blog/posts/intro/</link>
       <pubDate>Mon, 21 Feb 2022 18:16:21 -0600</pubDate>
       
-      <guid>http://andressantiago.z/memory-blog/posts/intro/</guid>
+      <guid>https://andressantiago08.github.io/my_launchx_blog/posts/intro/</guid>
       <description>Para mi un desarrollador de software debe tener las siguientes cualidades:
  Proactivo Dedicado Honesto Respetuoso  Estás son las bases de un desarrollador.</description>
     </item>
     
     <item>
       <title>About me</title>
-      <link>http://andressantiago.z/memory-blog/pages/about/</link>
+      <link>https://andressantiago08.github.io/my_launchx_blog/pages/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://andressantiago.z/memory-blog/pages/about/</guid>
+      <guid>https://andressantiago08.github.io/my_launchx_blog/pages/about/</guid>
       <description>Who am I Hola, aquí vas a leer un poco sobre mi 🤩
  La Ley Innata
 &amp;ldquo;Est enim, iudices, haec non scripta, sed nata lex, quam non didicimus, accepimus, legimus,
