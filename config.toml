@@ -1,4 +1,4 @@
-baseURL = "http://andressantiago.z/memory-blog/"
+baseURL = "https://andressantiago08.github.io/my_launchx_blog/"
 languageCode = "en-us"
 title = "Bitácora de Viaje de Andrés Santiago"
 theme = "hugo-winston-theme"
