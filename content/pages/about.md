@@ -9,13 +9,20 @@ menu:
 
 Hola, aquí vas a leer un poco sobre mi 🤩
 
-> Excidit gente, si orat suo quaeque dura Calydon nata? Pars auro post stetit
-> adfusique imis amplexus. Agmina per fabricator
-> mittere Erymanthon habetque tot.
+> La Ley Innata  
+> "Est enim, iudices, haec non scripta, sed nata lex, quam non didicimus, accepimus, legimus,  
+> verum ex natura ipsa arripuimus, hausimus, expressimus, ad quam non docti, sed facti, non instituti, sed imbuti sumus".  
+> Cicero  
 
-**Cineres Nile ipsa** origine discurrunt adest Unde, et quem clausus, imo,
-virens quoque tales, potuit. Ingentes insilit corpore nutricis praebebat roganti
-licuit. Denique a vestros adulantum in bella lina parte et arte generi di igitur
-quis, digitis pedes. Cum resonant tamen, namque in anxia. Non nostri trahens
-ancora.
+Tengo 31 años, estudié ingeniría biónica en la UPIITA-IPN. Ahí fue donde aprendí a programar aunque las aplicaciones  
+eran muy diferentes a lo que estoy aprendiendo ahora. 
+
+Desde 2016 trabajo con unos amigos en un proyecto que se llama __Thermy__, que tiene como objetivo reducir la estadistica 
+de la detección tardía del cáncer de mama.
+
+Tengo una compañera de cuarto que se llama Abril y me acompaña desde hace 5 años.  
+![Abril](https://user-images.githubusercontent.com/97483147/162121278-d40e6847-b165-4293-a951-951241ed9e8b.jpg)
+
+Y si se preguntan por qué la ley innata. Hay un grupo español llamado Extremoduro que tiene un disco llamado así,  
+que es uno de los mejores discos que he escuchado.  
 
