@@ -17,7 +17,7 @@ Hola, aquí vas a leer un poco sobre mi 🤩
 Tengo 31 años, estudié ingeniría biónica en la UPIITA-IPN. Ahí fue donde aprendí a programar aunque las aplicaciones  
 eran muy diferentes a lo que estoy aprendiendo ahora. 
 
-Desde 2016 trabajo con unos amigos en un proyecto que se llama __Thermy__, que tiene como objetivo reducir la estadistica 
+Desde 2016 trabajo con unos amigos en un proyecto que se llama [__Thermy__](https://thermy.com.mx), que tiene como objetivo reducir la estadistica 
 de la detección tardía del cáncer de mama.
 
 Tengo una compañera de cuarto que se llama Abril y me acompaña desde hace 5 años.  
