@@ -5,7 +5,7 @@ description: 'Descripción de lo que he visto'
 ---
 
 Hasta este momento he visto:
-- Python (La parte de diccionarios no la hbía visto)
+- Python (La parte de diccionarios no la había visto)
 - HTML
 - CSS
 - JavaScript
