@@ -6,7 +6,21 @@
     <description>Recent content in Launch X Bitácora de viaje on Bitácora de Viaje de Andrés Santiago</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 06 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://andressantiago08.github.io/my_launchx_blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 10 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://andressantiago08.github.io/my_launchx_blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lo que he aprendido en la primera semana de NodeJS</title>
+      <link>http://andressantiago08.github.io/my_launchx_blog/posts/post_2/</link>
+      <pubDate>Sun, 10 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://andressantiago08.github.io/my_launchx_blog/posts/post_2/</guid>
+      <description>Hola lector! Lo que pude aprender de la primera semana fue:
+ Usar algunos comandos básicos de terminal en Windows (PowerShell)  Cambiar directotio: cd
+Mostrar contenido del directorio: dir Crear directorio: mkdir
+Configuración de PowerShell para que tenga la función de autocompletado usando TAB y abrir archivos con &amp;ldquo;Open&amp;rdquo;
+Abrir un archivo en el editor VS Code: Open Referencia para la configuración de PowerShell
+  Usar algunos comandos básicos de git  Descargar actualizaciones del repo: git pull</description>
+    </item>
+    
     <item>
       <title>Lo que he aprendido en Launch X</title>
       <link>http://andressantiago08.github.io/my_launchx_blog/posts/post_1/</link>
@@ -25,15 +39,6 @@
       <guid>http://andressantiago08.github.io/my_launchx_blog/posts/intro/</guid>
       <description>Para mi un desarrollador de software debe tener las siguientes cualidades:
  Proactivo Dedicado Honesto Respetuoso  Estás son las bases de un desarrollador.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://andressantiago08.github.io/my_launchx_blog/posts/post_2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://andressantiago08.github.io/my_launchx_blog/posts/post_2/</guid>
-      <description></description>
     </item>
     
     <item>
