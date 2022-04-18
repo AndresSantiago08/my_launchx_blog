@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Lo que he aprendido en la segunda semana de NodeJS - Bitácora de Viaje de Andrés Santiago</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="http://andressantiago08.github.io/my_launchx_blog/favicon.png">
+
+  
+  
+  <link rel="stylesheet" href="../../css/style.min.4f4767d518839223786999cdb69fc7a63791220ecccd236bc732a5f998aaee2d.css">
+  
+
+  
+    <meta name="description" content="Lo que he visto"/>
+    <meta property="og:title" content="Lo que he aprendido en la segunda semana de NodeJS"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="http://andressantiago08.github.io/my_launchx_blog/posts/post_3/"/>
+    
+    <meta property="og:description" content="Lo que he visto"/>
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:site" content="@A_Santiago_5"/>
+    <meta name="twitter:creator" content="@A_Santiago_5"/>
+  
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"> 
+</head>
+
+
+
+
+<body class='page frame page-blog-single'>
+  <div id="wrapper" class="wrapper">
+    <div class='header'>
+  <a class="header-logo" href="http://andressantiago08.github.io/my_launchx_blog/">Bitácora de Viaje de Andrés Santiago</a>
+  <div class="menu-main">
+    <ul>
+        
+        
+            <li class="menu-item-aboutme">
+                <a href="../../pages/about/">AboutMe</a>
+            </li>
+        
+            <li class="menu-item-posts">
+                <a href="../../posts/">Posts</a>
+            </li>
+        
+    </ul>
+  </div>
+</div>
+    
+  <div class="blog">
+    
+    <div class="intro">
+      <h1>Lo que he aprendido en la segunda semana de NodeJS<span class="dot">.</span></h1>
+      
+    </div>
+    <div class="content">
+      <h1 id="hola-lector">Hola lector!</h1>
+<p>Lo que pude aprender de la segunda semana fue:</p>
+<ul>
+<li>Usar algunos comandos básicos de git
+<blockquote>
+<p>Verificar la lista de &ldquo;commits&rdquo; que se realizaron de forma local: <strong>git log</strong><br>
+Agregar un archivo que evita que archivos o carpetas se guarden en el repositorio : <strong>.gitignore</strong></p>
+</blockquote>
+</li>
+<li>Declaraciones de Objetos<br>
+Ejemplo Objeto con métodos:
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Js" data-lang="Js"><span class="kr">const</span> <span class="nx">pet</span> <span class="o">=</span> <span class="p">{</span>  
+<span class="nx">name</span><span class="o">:</span> <span class="s2">&#34;Tulio&#34;</span><span class="p">,</span>  
+   <span class="c1">// Esta es una función que se guarda como propiedad  
+</span><span class="c1"></span>   <span class="nx">sayHello</span><span class="o">:</span> <span class="kd">function</span><span class="p">(){</span>  
+     <span class="c1">// this.name hace referencia a la propiedad del objeto  
+</span><span class="c1"></span>      <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="sb">`</span><span class="si">${</span><span class="k">this</span><span class="p">.</span><span class="nx">name</span><span class="si">}</span><span class="sb"> te saluda en español!`</span><span class="p">)</span>  
+   <span class="p">}</span>  
+ <span class="p">}</span>  
+
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&#34;Ejemplo 4: Objeto con métodos&#34;</span><span class="p">)</span>  
+<span class="nx">pet</span><span class="p">.</span><span class="nx">sayHello</span><span class="p">()</span> 
+</code></pre></div></li>
+<li>Operadores
+<blockquote>
+<p>Foreach, Map, Filter, Reduce, Every, Find, FindIndex, Some, Sort.  <br>
+Ejemplo de Map:</p>
+</blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Js" data-lang="Js"><span class="c1">// Ejemplo 5: Uso de Map para convertir todos los nombres de una lista a minúsculas  
+</span><span class="c1"></span><span class="kr">const</span> <span class="nx">names</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;Asabeneh&#39;</span><span class="p">,</span> <span class="s1">&#39;Mathias&#39;</span><span class="p">,</span> <span class="s1">&#39;Elias&#39;</span><span class="p">,</span> <span class="s1">&#39;Brook&#39;</span><span class="p">]</span>  
+<span class="kr">const</span> <span class="nx">namesToUpperCase</span> <span class="o">=</span> <span class="nx">names</span><span class="p">.</span><span class="nx">map</span><span class="p">((</span><span class="nx">name</span><span class="p">)</span> <span class="p">=&gt;</span> <span class="nx">name</span><span class="p">.</span><span class="nx">toUpperCase</span><span class="p">())</span>  
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&#34;Ejemplo 5: Uso de Map para convertir todos los nombres de una lista a minúsculas&#34;</span><span class="p">)</span>  
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">namesToUpperCase</span><span class="p">)</span>   
+</code></pre></div></li>
+<li>Clases y Objetos
+<blockquote>
+<p>Clase vacía, Instanciar objetos de una clase, Instanciar Objeto con atributos, Métodos en los objetos, <br>
+Atributos con valores por default, Getters, Setters, Métodos static, Herencia y Overriding methods.  <br>
+Ejemplo de instanciar un objeto con atributos, métodos, Getter, Setter, método static, herencia de clase y overriding métodos.</p>
+</blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Js" data-lang="Js"><span class="kr">class</span> <span class="nx">TwitterUser</span> <span class="p">{</span>
+  <span class="nx">constructor</span><span class="p">(</span><span class="nx">name</span><span class="p">,</span> <span class="nx">username</span><span class="p">){</span>
+      <span class="k">this</span><span class="p">.</span><span class="nx">name</span> <span class="o">=</span> <span class="nx">name</span><span class="p">;</span>
+      <span class="k">this</span><span class="p">.</span><span class="nx">username</span> <span class="o">=</span> <span class="nx">username</span><span class="p">;</span>
+  <span class="p">}</span>
+
+  <span class="nx">get</span> <span class="nx">getName</span><span class="p">(){</span>
+      <span class="k">return</span> <span class="k">this</span><span class="p">.</span><span class="nx">name</span><span class="p">;</span>
+  <span class="p">}</span>
+
+  <span class="nx">set</span> <span class="nx">setName</span><span class="p">(</span><span class="nx">NewName</span><span class="p">){</span>
+      <span class="k">this</span><span class="p">.</span><span class="nx">name</span> <span class="o">=</span> <span class="nx">NewName</span><span class="p">;</span>
+  <span class="p">}</span>
+
+  <span class="nx">getInfo</span><span class="p">(){</span>
+      <span class="k">return</span> <span class="sb">`User </span><span class="si">${</span><span class="k">this</span><span class="p">.</span><span class="nx">name</span><span class="si">}</span><span class="sb">, with username: </span><span class="si">${</span><span class="k">this</span><span class="p">.</span><span class="nx">username</span><span class="si">}</span><span class="sb">`</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="kr">class</span> <span class="nx">TwitterInfo</span> <span class="kr">extends</span> <span class="nx">TwitterUser</span><span class="p">{</span>
+  <span class="nx">constructor</span><span class="p">(</span><span class="nx">name</span><span class="p">,</span> <span class="nx">username</span><span class="p">,</span> <span class="nx">joinedIn</span><span class="p">){</span>
+      <span class="kr">super</span><span class="p">(</span><span class="nx">name</span><span class="p">,</span> <span class="nx">username</span><span class="p">)</span>
+      <span class="k">this</span><span class="p">.</span><span class="nx">joinedIn</span> <span class="o">=</span> <span class="nx">joinedIn</span><span class="p">;</span>
+  <span class="p">}</span>
+
+  <span class="nx">getStatus</span><span class="p">(</span><span class="nx">followers</span><span class="p">){</span>
+      <span class="k">return</span> <span class="k">this</span><span class="p">.</span><span class="nx">getInfo</span><span class="p">()</span> <span class="o">+</span> <span class="sb">` has got </span><span class="si">${</span><span class="nx">followers</span><span class="si">}</span><span class="sb"> followers since </span><span class="si">${</span><span class="k">this</span><span class="p">.</span><span class="nx">joinedIn</span><span class="si">}</span><span class="sb">`</span>
+  <span class="p">}</span>
+
+  <span class="nx">getNumberTweets</span><span class="p">(</span><span class="nx">numberTweets</span><span class="p">){</span>
+      <span class="k">return</span> <span class="k">this</span><span class="p">.</span><span class="nx">getInfo</span><span class="p">()</span> <span class="o">+</span> <span class="sb">` has published </span><span class="si">${</span><span class="nx">numberTweets</span><span class="si">}</span><span class="sb"> tweets`</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="c1">// Llamar a la clase TwitterUser
+</span><span class="c1"></span><span class="kr">const</span> <span class="nx">NewUser</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">TwitterUser</span><span class="p">(</span><span class="s2">&#34;Andres Santiago&#34;</span><span class="p">,</span> <span class="s2">&#34;AndresSantiago08&#34;</span><span class="p">);</span>
+<span class="c1">// Mostrar nombre
+</span><span class="c1"></span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">NewUser</span><span class="p">.</span><span class="nx">getInfo</span><span class="p">());</span>
+<span class="c1">// Cambiar nombre
+</span><span class="c1"></span><span class="nx">NewUser</span><span class="p">.</span><span class="nx">setName</span> <span class="o">=</span> <span class="s2">&#34;A. Santiago&#34;</span><span class="p">;</span>
+<span class="c1">// Mostrar la información
+</span><span class="c1"></span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">NewUser</span><span class="p">.</span><span class="nx">getName</span><span class="p">);</span>
+<span class="c1">// Guardar nuevo nombre
+</span><span class="c1"></span><span class="kr">const</span> <span class="nx">NewName</span> <span class="o">=</span> <span class="nx">NewUser</span><span class="p">.</span><span class="nx">getName</span><span class="p">;</span>
+<span class="c1">// Llamar a la clase TwitterInfo
+</span><span class="c1"></span><span class="kr">const</span> <span class="nx">MoreInfo</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">TwitterInfo</span><span class="p">(</span><span class="nx">NewName</span><span class="p">,</span> <span class="s2">&#34;AndresSantiago08&#34;</span><span class="p">,</span> <span class="s2">&#34;April 2013&#34;</span><span class="p">);</span>
+<span class="c1">// Mostrar método getStatus
+</span><span class="c1"></span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">MoreInfo</span><span class="p">.</span><span class="nx">getStatus</span><span class="p">(</span><span class="mi">10</span><span class="p">));</span>
+<span class="c1">// Mostrar método getNumberTweets
+</span><span class="c1"></span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">MoreInfo</span><span class="p">.</span><span class="nx">getNumberTweets</span><span class="p">(</span><span class="mi">875</span><span class="p">));</span>
+
+</code></pre></div></li>
+</ul>
+<h3 id="gracias-por-leer-espero-te-sea-de-utilidad">Gracias por leer, espero te sea de utilidad.</h3>
+
+    </div>
+  </div>
+
+    <div class="footer">
+  
+  <div class="footer-social">
+    
+      <span class="social-icon social-icon-twitter">
+        <a href="https://twitter.com/A_Santiago_5" title="twitter" target="_blank" rel="noopener">
+          <img src="../../images/social/twitter.svg" width="24" height="24" alt="twitter"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-github">
+        <a href="https://github.com/AndresSantiago08" title="github" target="_blank" rel="noopener">
+          <img src="../../images/social/github.svg" width="24" height="24" alt="github"/>
+        </a>
+      </span>
+    
+  </div>
+  
+</div>
+  </div>
+
+  
+
+  
+
+  
+  <script type="text/javascript" src="../../js/bundle.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js"></script>
+  
+
+  
+  
+
+  
+  
+  
+    
+  
+
+
+</body>
+</html>

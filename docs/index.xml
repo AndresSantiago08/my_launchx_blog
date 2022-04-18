@@ -6,7 +6,20 @@
     <description>Recent content in Launch X Bitácora de viaje on Bitácora de Viaje de Andrés Santiago</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 10 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://andressantiago08.github.io/my_launchx_blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 17 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://andressantiago08.github.io/my_launchx_blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lo que he aprendido en la segunda semana de NodeJS</title>
+      <link>http://andressantiago08.github.io/my_launchx_blog/posts/post_3/</link>
+      <pubDate>Sun, 17 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://andressantiago08.github.io/my_launchx_blog/posts/post_3/</guid>
+      <description>Hola lector! Lo que pude aprender de la segunda semana fue:
+ Usar algunos comandos básicos de git  Verificar la lista de &amp;ldquo;commits&amp;rdquo; que se realizaron de forma local: git log
+Agregar un archivo que evita que archivos o carpetas se guarden en el repositorio : .gitignore
+  Declaraciones de Objetos
+Ejemplo Objeto con métodos: const pet = { name: &amp;#34;Tulio&amp;#34;, // Esta es una función que se guarda como propiedad  sayHello: function(){ // this.</description>
+    </item>
+    
     <item>
       <title>Lo que he aprendido en la primera semana de NodeJS</title>
       <link>http://andressantiago08.github.io/my_launchx_blog/posts/post_2/</link>
